@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  font-family: "Alegreya", serif;
+  background-color: #fcf1e8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #fcf1e8;
+  align-items: center;
+  width: 100%;
+  padding: 1em 7em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo p {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.header-icon a img {
+  width: 20px;
+  height: 20px;
+}
+
+.descubraBordados {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 5em 7em;
+  align-items: center;
+}
+
+.descubraBordados img {
+  width: 50%;
+  height: 50%;
+}
+
+.descubraBordados-content h1 {
+  font-size: 3.5rem;
+  width: 20%;
+}
+
+.descubraBordados-content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.descubraBordados-content button {
+  padding: 1em 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #e38d8a;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.bordadosIncriveisFundo {
+  background: url("./img/patches-bordados-blog.jpg");
+  background-size: cover;
+}
+
+.bordadosIncriveis {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  background-color: transparent;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bordadosIncriveis h1 {
+  font-size: 400%;
+  background-color: #f9b1ae;
+  border-radius: 40px 40px 0px 0px;
+  padding: 20px;
+}
+
+.bordadosIncriveis p {
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9b1ae;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.cardsContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.cards img {
+  width: 20em;
+}
+
+.cards p {
+  font-size: 25px;
+}
+
+.card {
+  width: calc(33.3% - 20px);
+}
